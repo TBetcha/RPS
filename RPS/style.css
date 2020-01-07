@@ -61,7 +61,8 @@ body{
     background-color: white;
 }
 
-.player-name{
+.player-two-name,
+.player-one-name{
     font-size: 60px;
     text-align: center;
     letter-spacing: 2px;
@@ -80,7 +81,8 @@ body{
     
 }
 
-.current.player-name{
+.current.player-two-name,
+.current.player-one-name{
     
    text-decoration: underline;
 }
@@ -156,12 +158,12 @@ button {
     transform: translate(-65%, -90%);
 }
 
-btn-one:active{
+.btn-one:active{
     background-color:red;
     top:261px;
 }
 
-btn-two:active{
+.btn-two:active{
     background-color:red;
     top:261px;
 
