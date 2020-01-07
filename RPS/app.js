@@ -10,13 +10,13 @@ console.log(shooter);
 
 
 
-function start() {
+function start(){
     scores = [0,0];
     document.querySelector('#score-0').textContent = scores[0];
     document.querySelector('#score-1').textContent = scores[1];
     var shoot1 = false;
     var shoot2 = false;
-
+    
 }
 
 function checkScore(){
@@ -91,3 +91,5 @@ document.querySelector('.btn-two').addEventListener('click', function(){
     keepGoing();
     
 });
+
+document.querySelector('.btn-new').addEventListener('click',start);

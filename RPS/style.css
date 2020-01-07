@@ -169,6 +169,10 @@ button {
 
 }
 
+.btn-new:active{
+    background-color: red;
+    top: 1px;
+}
 
 
 
